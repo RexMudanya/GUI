@@ -16,7 +16,7 @@ import os
 import pyqrcode
 from PyQt5.QtGui import *
 from PIL import Image
-import cv2
+
 
 wd=os.getcwd()
 os.chdir(wd+"\\")

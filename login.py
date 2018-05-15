@@ -7,6 +7,23 @@
 # WARNING! All changes made in this file will be lost!
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtCore import pyqtSlot
+import sys
+from PyQt5.QtWidgets import *
+import time
+from PyQt5.QtCore import *
+import os
+from PyQt5.QtGui import *
+
+
+wd=os.getcwd()
+os.chdir(wd+"\\")
+
+#find local time/system time
+time=QTime()
+current_t = time.currentTime()
+str_current_t=str(current_t)
+
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
