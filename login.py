@@ -28,7 +28,10 @@ class Ui_MainWindow(object):
         self.lineEdit_2.setObjectName("lineEdit_2")
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton.setGeometry(QtCore.QRect(220, 150, 75, 23))
+        self.pushButton_1 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_1.setGeometry(QtCore.QRect(220,190,75,23))
         self.pushButton.setObjectName("pushButton")
+        self.pushButton_1.setObjectName("pushButton_1")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 508, 21))
@@ -47,6 +50,7 @@ class Ui_MainWindow(object):
         self.label.setText(_translate("MainWindow", "Username:"))
         self.label_2.setText(_translate("MainWindow", "Password:"))
         self.pushButton.setText(_translate("MainWindow", "Login"))
+        self.pushButton_1.setText(_translate("MainWindow", "Register"))
 
 
 if __name__ == "__main__":
